@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f4f6f9;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+.Login input{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+
+}
+.card input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 90%;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width:100%;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; */
+}
+.Login{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.Form-box{
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.Form-box input{
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+  
+}
